@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Original PNG bilum illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7dcb1"/>
+      <stop offset="100%" stop-color="#e8b768"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5c96d"/>
+      <stop offset="100%" stop-color="#d96c34"/>
+    </linearGradient>
+    <pattern id="weave" patternUnits="userSpaceOnUse" width="64" height="64">
+      <rect width="64" height="64" fill="none"/>
+      <path d="M0 16H64M0 32H64M0 48H64M16 0V64M32 0V64M48 0V64" stroke="#fff3d2" stroke-width="2" opacity="0.75"/>
+      <path d="M0 0L64 64M64 0L0 64" stroke="#b54f2b" stroke-width="2" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg)"/>
+  <circle cx="650" cy="160" r="110" fill="#f7f1dc" opacity="0.78"/>
+  <path d="M220 220C270 130 430 110 510 180C560 225 570 290 540 340L470 470C432 512 410 552 410 610V700C410 736 382 760 346 760H290C252 760 224 734 224 698V610C224 560 198 520 150 470L86 390C54 356 52 310 82 278C122 235 183 212 220 220Z" fill="url(#bag)" stroke="#703215" stroke-width="10"/>
+  <path d="M282 330C332 296 390 286 440 300C470 308 500 322 525 350" fill="none" stroke="#fff3d2" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+  <path d="M260 390C310 420 362 436 428 436C472 436 498 430 540 408" fill="none" stroke="#fff3d2" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+  <path d="M238 510C285 562 314 598 332 640" fill="none" stroke="#fff3d2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M528 518C502 560 470 594 436 640" fill="none" stroke="#fff3d2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M180 260C275 230 350 210 422 212C500 214 562 242 596 276" fill="none" stroke="#d96c34" stroke-width="16" stroke-linecap="round" opacity="0.6"/>
+  <path d="M210 320L536 320" stroke="#8d4020" stroke-width="10" opacity="0.5"/>
+  <path d="M216 390L548 390" stroke="#8d4020" stroke-width="10" opacity="0.5"/>
+  <path d="M242 458L520 458" stroke="#8d4020" stroke-width="10" opacity="0.5"/>
+  <path d="M250 520L530 520" stroke="#8d4020" stroke-width="10" opacity="0.5"/>
+  <path d="M280 590L508 590" stroke="#8d4020" stroke-width="10" opacity="0.5"/>
+  <rect x="140" y="180" width="472" height="520" rx="28" fill="url(#weave)" opacity="0.7"/>
+  <circle cx="640" cy="180" r="50" fill="#f1ae44" opacity="0.7"/>
+  <circle cx="640" cy="180" r="18" fill="#fff3d2"/>
+</svg>

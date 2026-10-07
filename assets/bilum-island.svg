@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Island Lines bilum illustration">
+  <defs>
+    <linearGradient id="bg4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3f0df"/>
+      <stop offset="100%" stop-color="#d5d0ac"/>
+    </linearGradient>
+    <linearGradient id="bag4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8d581"/>
+      <stop offset="100%" stop-color="#cf7b47"/>
+    </linearGradient>
+    <pattern id="island" patternUnits="userSpaceOnUse" width="70" height="70">
+      <rect width="70" height="70" fill="none"/>
+      <path d="M0 25H70M0 50H70M0 35H70M35 0V70" stroke="#fffef3" stroke-width="2" opacity="0.7"/>
+      <path d="M0 0L70 70M70 0L0 70" stroke="#b1602e" stroke-width="2" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg4)"/>
+  <circle cx="170" cy="150" r="100" fill="#f8f0d0" opacity="0.75"/>
+  <path d="M208 188C260 124 332 102 417 132C517 168 581 240 582 350V650C582 717 534 770 467 770H272C204 770 152 716 152 650V346C152 292 171 236 208 188Z" fill="url(#bag4)" stroke="#5b3320" stroke-width="10"/>
+  <rect x="168" y="160" width="430" height="600" rx="28" fill="url(#island)" opacity="0.8"/>
+  <path d="M184 286C220 255 290 236 356 236C432 236 500 262 548 308" fill="none" stroke="#fef7d7" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <path d="M190 408C238 450 286 464 346 464C432 464 504 438 546 396" fill="none" stroke="#fef7d7" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <path d="M216 524C270 570 320 598 354 648" fill="none" stroke="#fef7d7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M520 524C490 570 462 596 420 646" fill="none" stroke="#fef7d7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="610" cy="220" r="52" fill="#e1c68a" opacity="0.8"/>
+  <circle cx="610" cy="220" r="16" fill="#fff9e7"/>
+</svg>

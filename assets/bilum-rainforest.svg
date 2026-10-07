@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Rainforest Bloom bilum illustration">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e9f4d5"/>
+      <stop offset="100%" stop-color="#afd47a"/>
+    </linearGradient>
+    <linearGradient id="bag3" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d6a14f"/>
+      <stop offset="100%" stop-color="#8a6639"/>
+    </linearGradient>
+    <pattern id="leaf" patternUnits="userSpaceOnUse" width="90" height="90">
+      <rect width="90" height="90" fill="none"/>
+      <path d="M10 45C36 20 56 20 80 45C60 62 38 70 10 45Z" fill="#f5f8db" opacity="0.8"/>
+      <path d="M10 45C36 68 56 68 80 45C60 28 38 20 10 45Z" fill="#d7ef92" opacity="0.8"/>
+      <path d="M45 10V80M10 45H80" stroke="#6d8d4e" stroke-width="3" opacity="0.8"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg3)"/>
+  <path d="M186 190C221 144 287 117 358 117C447 117 519 154 564 215C608 275 626 345 626 414V644C626 713 576 764 510 764H292C226 764 176 713 176 644V418C176 322 176 252 186 190Z" fill="url(#bag3)" stroke="#5c3f1e" stroke-width="10"/>
+  <rect x="150" y="160" width="500" height="580" rx="30" fill="url(#leaf)" opacity="0.82"/>
+  <path d="M202 298C254 243 312 223 382 222C458 220 514 245 552 296" fill="none" stroke="#fbeec7" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <path d="M196 390C250 430 308 446 392 444C454 442 514 424 554 390" fill="none" stroke="#fbeec7" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
+  <path d="M222 490C268 538 304 570 338 628" fill="none" stroke="#fbeec7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M524 492C492 538 462 574 430 630" fill="none" stroke="#fbeec7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="620" cy="190" r="70" fill="#f8d66b" opacity="0.7"/>
+  <circle cx="620" cy="190" r="24" fill="#fff7d7"/>
+</svg>

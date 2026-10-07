@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Register your interest in Kumul Bilum bilums, traditional items and wholesale services."
+    />
+    <title>Contact and Registration | Kumul Bilum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      Free PNG-wide delivery on orders over K300 <span>↗</span>
+    </div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Kumul Bilum home">
+        <span class="brand-mark">KB</span>
+        <span>KUMUL<br /><em>BILUM</em></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html#shop">Shop bilums</a>
+        <a href="services.html">Our story</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a class="basket-button" href="contact.html" aria-current="page">
+        Register <span>↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero">
+        <p class="eyebrow">Contact and registration</p>
+        <h1>Tell us what<br /><em>you are looking for.</em></h1>
+        <p>
+          Register your interest in a bilum, traditional item, gift or
+          partnership. Our team will reply with availability and next steps.
+        </p>
+      </section>
+
+      <section class="contact-layout">
+        <div class="contact-details">
+          <p class="eyebrow">Visit or write</p>
+          <h2>Let’s find<br /><em>your piece.</em></h2>
+          <p>
+            We are a small PNG business and every enquiry helps us connect more
+            makers with appreciative customers.
+          </p>
+          <address>
+            <strong>Gordons Market</strong><br />
+            Port Moresby, Papua New Guinea<br />
+            <a href="mailto:hello@kumulbilum.com">hello@kumulbilum.com</a
+            ><br />
+            <a href="tel:+67570000000">+675 7000 0000</a>
+          </address>
+          <a class="text-link" href="index.html#shop">
+            Return to the collection <span>↗</span>
+          </a>
+        </div>
+
+        <form
+          class="enquiry-form registration-form"
+          id="registration"
+          action="mailto:hello@kumulbilum.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-heading">
+            <p class="eyebrow">Register your interest</p>
+            <h3>Start your<br /><em>enquiry.</em></h3>
+          </div>
+          <div class="form-grid">
+            <label for="full-name">
+              Full name
+              <input
+                id="full-name"
+                name="full-name"
+                type="text"
+                autocomplete="name"
+                placeholder="Your name"
+                required
+              />
+            </label>
+            <label for="email">
+              Email address
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+              />
+            </label>
+            <label for="phone">
+              Telephone
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                placeholder="+675 ..."
+                pattern="[0-9+() -]{7,}"
+              />
+            </label>
+            <label for="province">
+              Province
+              <select id="province" name="province" required>
+                <option value="" selected disabled>Select a province</option>
+                <option>Eastern Highlands</option>
+                <option>East Sepik</option>
+                <option>Morobe</option>
+                <option>New Ireland</option>
+                <option>Gulf</option>
+                <option>Other PNG province</option>
+              </select>
+            </label>
+            <label for="item">
+              What are you looking for?
+              <select id="item" name="item" required>
+                <option value="" selected disabled>Choose an option</option>
+                <option>Bilum bag</option>
+                <option>Traditional accessory</option>
+                <option>Gift for someone</option>
+                <option>Wholesale or partnership</option>
+              </select>
+            </label>
+            <label for="product">
+              Product of interest
+              <input
+                id="product"
+                name="product"
+                type="text"
+                autocomplete="off"
+                placeholder="Choose a bilum from the collection"
+              />
+            </label>
+          </div>
+          <fieldset>
+            <legend>Preferred reply method</legend>
+            <label>
+              <input
+                type="radio"
+                name="reply-method"
+                value="email"
+                checked
+              />
+              Email
+            </label>
+            <label>
+              <input type="radio" name="reply-method" value="telephone" />
+              Telephone
+            </label>
+          </fieldset>
+          <label for="message">
+            Your message
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us about the piece or service you need..."
+              required
+            ></textarea>
+          </label>
+          <label class="checkbox-label" for="updates">
+            <input
+              id="updates"
+              name="updates"
+              type="checkbox"
+              value="yes"
+            />
+            Send me occasional updates about new bilums and traditional items.
+          </label>
+          <button class="button button-light form-submit" type="submit">
+            Submit registration <span>↗</span>
+          </button>
+        </form>
+
+        <script>
+          const selectedProduct = new URLSearchParams(
+            window.location.search,
+          ).get("product");
+          if (selectedProduct) {
+            document.getElementById("product").value = selectedProduct;
+          }
+        </script>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">KB</span>
+        <span>KUMUL<br /><em>BILUM</em></span>
+      </a>
+      <p>Woven with purpose in Papua New Guinea.</p>
+      <div>
+        <a href="index.html#shop">Shop</a>
+        <a href="services.html">Our story</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <small>© 2026 Kumul Bilum</small>
+    </footer>
+  </body>
+</html>
